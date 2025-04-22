@@ -1,0 +1,1 @@
+start cmd /k "code . && cd frontend && npm rum dev"
