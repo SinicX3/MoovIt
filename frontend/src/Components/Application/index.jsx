@@ -1,6 +1,6 @@
 function Application () {
 
-  return(<main>
+  return(<main id="applicant">
     <div>
       <h1>Créer un nouveau dossier Moovit</h1>
       <p>Vous pouvez utiliser le formulaire ci-dessous pour demander à ce qu'un véhicule Moovit soit mis à disposition dans votre commune.</p>
@@ -15,8 +15,9 @@ function Application () {
       <input type="tel" id="tel" name="tel" required />
       <label for="CP">Code postal de votre commune :</label>
       <input type="text" id="CP" name="CP" required />
-      <label for="number">Nombre de véhicules suggérés :</label>
+      <label for="number">Nombre de véhicules demandés :</label>
       <input type="number" id="number" name="number" required /> 
+      <button type="submit">Envoyer</button>
     </form>
   </main>)
 }
