@@ -5,6 +5,7 @@ import React from 'react'
 import './styles.sass'
 import Home from './Pages/Home'
 import Header from './Components/Header'
+import Error from './Pages/Error'
 
 const domNode = document.getElementById('root')
 const root = createRoot(domNode)
@@ -15,6 +16,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </Router>
   </StrictMode>,
