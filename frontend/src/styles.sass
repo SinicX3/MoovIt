@@ -33,11 +33,17 @@ header
 
   // *************************** Section
 
+#h1
+  color: var(--orange)
+
+h1, h2
+  text-align: center
+
 #Home_section
   display: flex
   width: 100%
   justify-content: space-evenly
-  margin: 100px 0px
+  margin: 50px 0px
 
   div
     width: 30%
@@ -56,6 +62,7 @@ header
 
   img
     width: 60%
+    max-width: 250px
 
 #Info_section
   display: flex
@@ -63,6 +70,17 @@ header
   justify-content: center
   margin: 100px 0px
   text-align: center
+
+  h2
+    color: var(--orange)
+
+#sub_section
+  display: grid
+  color: var(--orange)
+  grid-template-columns: 33% 33% 33%
+
+  img
+    width: 20%
 
   // *************************** Application, Véhicule
 
@@ -92,6 +110,21 @@ form
 button
   width: 20%
   align-self: center
+
+  // *************************** Map
+
+#Find
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  h2
+    color: var(--orange)
+
+  #map
+    width: 80%
+    height: 600px
+    border-radius: 20px
 
   // *************************** Error
 
