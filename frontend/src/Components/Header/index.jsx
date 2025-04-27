@@ -8,7 +8,7 @@ function Header () {
     <img src="/assets/logo.png" onClick={() => navigate('/')}/>
     <div>
       {/* <p>A propos</p> */}
-      <p className="login" onClick={() => navigate('/login')}>Connexion/S'inscrire</p>
+      <p className="login" onClick={() => navigate('/login')}>Se connecter / S'inscrire</p>
     </div>
     </header>)
 }
